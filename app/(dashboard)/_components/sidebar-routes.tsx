@@ -1,6 +1,6 @@
 "use client";
 
-import { BarChart, Compass, Layout, List } from "lucide-react";
+import { BarChart, Compass, Layout, List, GraduationCap, Mails} from "lucide-react";
 import { usePathname } from "next/navigation";
 
 import { SidebarItem } from "./sidebar-item";
@@ -16,6 +16,15 @@ const guestRoutes = [
     label: "Browse",
     href: "/search",
   },
+  {
+    icon: GraduationCap,
+    label: "Past Questions",
+    href: "https://www.google.com",
+  },
+  {
+    icon: Mails,
+    label: "Contact Us",
+  }
 ];
 
 const teacherRoutes = [
